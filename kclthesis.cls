@@ -131,10 +131,12 @@
         \textbf{Name:} & \@author  \\ 
         \textbf{Student Number:} & \@studentnumber \\ 
         \textbf{Degree Programme:} & \@programme \\ 
+
         \textbf{Project Title:} & GluCORRECT - Harnessing Artificial Intelligence to \\  
         & scrutinize Hypoglycemia in hospitalised patients with \\ 
         & diabetes to classify, anticipate and analyse hypoglycemic \\
         & episodes [Knowledge Exchange Project with NHS England] \\ 
+		
         \textbf{Supervisor:} & \@supervisor \\ 
         \textbf{Word Count:} & \@wordcount \\ 
     \end{tabular}

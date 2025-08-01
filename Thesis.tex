@@ -37,6 +37,10 @@
 \usepackage{hyperref}
 \usepackage{ragged2e} % for justified text
 \usepackage{soul} % highlighting text
+% \usepackage[none]{hyphenat} % to prevent latex from hyphenating words at the end of lines - used /hyphenpenalty (below) instead
+\tolerance=1 % to prevent latex from hyphenating words at the end of lines
+\emergencystretch=\maxdimen % to prevent latex from hyphenating words at the end of lines
+\hyphenpenalty=10000 % to prevent latex from hyphenating words at the end of lines
 
 \linespread{1}
 \newfam\msbfam
