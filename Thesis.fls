@@ -419,6 +419,7 @@ INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\contents\nomenclature.tex
 INPUT .\contents\nomenclature.tex
 OUTPUT contents\nomenclature.aux
@@ -453,7 +454,6 @@ INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
-INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\contents\background.tex
 INPUT .\contents\background.tex
 OUTPUT contents\background.aux
