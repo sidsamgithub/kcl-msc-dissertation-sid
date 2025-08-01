@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{Linux}%
+{%
+name={latexlinux},%
+sort={latexlinux},%
+type={main},%
+first={latexlinux},%
+firstplural={latexlinuxs},%
+text={latexlinux},%
+plural={latexlinuxs},%
+description={Is a markup language specially suited for scientific documents},%
+descriptionplural={Is a markup language specially suited for scientific documents},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{lvm}%
+{%
+name={lvmformula},%
+sort={lvmformula},%
+type={main},%
+first={lvmformula},%
+firstplural={lvmformulas},%
+text={lvmformula},%
+plural={lvmformulas},%
+description={A mathematical expression},%
+descriptionplural={A mathematical expression},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
