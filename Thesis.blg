@@ -30,12 +30,10 @@ Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: contents/app_1.aux
 Database file #1: contents/sample1.bib
 Warning--I didn't find a database entry for "Doe11"
-Warning--I didn't find a database entry for "Joh11"
 Warning--I didn't find a database entry for "JohSil05"
-Warning--I didn't find a database entry for "website:fermentas-lambda"
 You've used 5 entries,
             1876 wiz_defined-function locations,
-            517 strings with 5488 characters,
+            514 strings with 5454 characters,
 and the built_in function-call counts, 682 in all, are:
 = -- 65
 > -- 20
@@ -74,4 +72,4 @@ warning$ -- 0
 while$ -- 5
 width$ -- 6
 write$ -- 47
-(There were 4 warnings)
+(There were 2 warnings)
