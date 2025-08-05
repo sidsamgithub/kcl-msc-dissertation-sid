@@ -469,6 +469,7 @@ INPUT contents\dataset.tex
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\contents\main.tex
 INPUT .\contents\main.tex
 OUTPUT contents\main.aux
@@ -527,6 +528,20 @@ OUTPUT contents\app_1.aux
 INPUT .\contents\app_1.tex
 INPUT .\contents\app_1.tex
 INPUT contents\app_1.tex
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
+INPUT .\figures\cleaned_dataset_screenshot_xl.png
 INPUT Thesis.aux
 INPUT .\contents\acknowledgements.aux
 INPUT .\contents\acknowledgements.aux
@@ -588,6 +603,8 @@ INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfon
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

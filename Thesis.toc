@@ -20,8 +20,5 @@
 \contentsline {subsection}{\numberline {9.2}Numerical methods for calibration}{11}{subsection.9.2}%
 \contentsline {section}{\numberline {10}Conclusion}{12}{section.10}%
 \contentsline {section}{References}{13}{section*.9}%
-\contentsline {section}{\numberline {A}Appendix}{14}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Points to Note}{14}{subsection.A.1}%
-\contentsline {section}{\numberline {B}Review of stochastic calculus}{15}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Riemann integration}{15}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}The It\^o integral}{15}{subsection.B.2}%
+\contentsline {section}{\numberline {A}Appendix}{15}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dataset}{15}{subsection.A.1}%
