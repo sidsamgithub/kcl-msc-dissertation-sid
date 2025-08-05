@@ -199,7 +199,7 @@
 	\end{flushleft}
 \end{minipage}
 
-\vspace{5mm}
+\vspace{8mm}
 
 \begin{minipage}{0.5\textwidth}
 \begin{flushleft}
