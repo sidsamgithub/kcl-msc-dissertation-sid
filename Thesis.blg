@@ -11,8 +11,8 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: contents/figures_tables.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: contents/introduction.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: contents/background.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: contents/literature_review.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: contents/dataset.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
@@ -31,7 +31,7 @@ Warning--I didn't find a database entry for "JohSil05"
 Warning--I didn't find a database entry for "website:fermentas-lambda"
 You've used 5 entries,
             1876 wiz_defined-function locations,
-            515 strings with 5388 characters,
+            515 strings with 5395 characters,
 and the built_in function-call counts, 682 in all, are:
 = -- 65
 > -- 20
