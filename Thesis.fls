@@ -414,9 +414,6 @@ OUTPUT contents\abstract.aux
 INPUT .\contents\abstract.tex
 INPUT .\contents\abstract.tex
 INPUT contents\abstract.tex
-INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
@@ -460,6 +457,9 @@ OUTPUT contents\background.aux
 INPUT .\contents\background.tex
 INPUT .\contents\background.tex
 INPUT contents\background.tex
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
 INPUT .\contents\main.tex
 INPUT .\contents\main.tex
 OUTPUT contents\main.aux

@@ -2,41 +2,64 @@
 % It provides the background and context of the work.
 
 \begin{flushleft}
-Hypoglycemia is a condition that occurs when the human body’s blood glucose (sugar) level drops below the normal healthy range of 4.0 to 6.0 mmol/L. For the purposes of this project, severe hypoglycemia has been defined as a blood glucose of 2.2 mmol/L or lower. With glucose being the body’s main source of energy, hypoglycemia is a concern as it can disturb brain and bodily functions.  \\ \vspace{5pt}
-
-Hypoglycemia is common in diabetics, especially those taking insulin, but it can occur in non-diabetics as well. Symptoms are rapid and successive, including feeling dizzy or sweating, shaking, feeling tired or weak and disorientated, unable to find one's bearing. \\ \vspace{5pt}
-
-What is especially significant though, besides quick to appear symptoms, is that hypoglycemic episodes are dreadfully anxiety provoking, with practically every patient's main concern being if people around them would have the proper awareness of the necessary measures to take to resolve an episode should one occur. Even though remedial action is relatively simple (to provide the patient with sugary foods / liquids or solutions to restore blood glucose), it can lead to loss of consciousness \& memory, seizures, cardiac arrhythmias and even death if not taken speedily.    \\ \vspace{5pt}
-
-Across GSTT, there are 0.5 million point of care glucose tests (POCT) carried out annually. GSTT possesses blood glucose / ketone data over the course of 1 year (Apr 2022-2023) with additional linked data including demographics, dates of admission and discharge, 
-measurements including weight, blood pressure, HbA1c, renal function \& POCT. There is another kind of record they use called an ‘inpatient record’, and it was identified that the inpatient record misses approximately 10\% of glucose data due to operator error, as compared to the POCT glucose feed which contains more data. We would like to resolve this, while also analysing the available data in order to assist GSTT in detecting blood sugar related conditions, making measureable improvements to diabetic healthcare. \\ \vspace{5pt}
-
-As evidenced by the National Diabetes Inpatient Safety Audit (NDISA) \hl{[insert reference]}, it has been recognized that severe hypoglycemia (blood glucose levels  2.2mmol/l) and recurrent severe hypoglycemia have been occurring relatively frequently at Guy’s and St. Thomas Hospitals (here onwards referred to as GSTT). The NDISA forms part of the National Database Audit (NDA), and it maintains that “The prevalence of diabetes continues to increase. In England between 2017-18 and 2021-22 prevalence of type 1 diabetes went up from 248,240 to 270,935 and the prevalence of type 2 and other diabetes from 2,952,695 to 3,336,980”, as of 2022. 
-
 \end{flushleft}
 
+\subsection{Clinical Overview}
+\par{ \noindent Hypoglycaemia (also known as a “hypoglycaemic episode” or a “hypo” for short) is the condition that occurs when the human body’s blood glucose (sugar) level drops below the normal healthy range of 4.0 to 6.0 mmol/L. While it can affect anyone, it is most common in diabetic individuals who are prescribed drugs like insulin or metformin to inhibit glucose. Hypoglycaemic events are relatively simple and straightforward to resolve, but they need to be treated immediately to avoid serious damage to the brain and heart as a result of loss of consciousness or arrhythmias. High-sugar consumables are generally effective in correcting mild cases and are commonly recommended for immediate treatment, but severe cases of hypoglycaemia such as when the person is unconscious or having a seizure can only be resolved with an urgent, immediate glucagon injection to prevent them from deteriorating into a coma (or in rare cases, even leading to death). }
+
+
+\vspace{10pt}
+\par{\noindent To underscore how and why this matters, diabetes is one of the most significant and expensive long-term health conditions faced by the NHS, with recent figures from Diabetes UK suggesting that over 5.8 million people in the UK are living with diabetes, regardless of a formal diagnosis. It is estimated to cost the NHS over £10.7 billion a year, approximately 10\% of its entire annual budget, which could go up to £18 billion by 2035 [1]. A stark finding is that almost 60\% of this cost (around £6.2 billion) is spent on treating the largely preventable complications of diabetes, such as heart attacks, strokes, blindness, and so on, including hypoglycaemia [2]. Hypoglycaemic instances make up a major component of these preventable costs, mainly accounting for the emergency, ambulance, and acute care expenses associated with diabetes. The Local Impact of Hypoglycaemia Tool (LIHT) suggests that hypoglycaemia can cost up to £2,195 per episode, possibly increasing substantially with a longer stay in hospital [3], and it is estimated that there are up to 100,000 ambulance callouts annually according to the Diabetes Research and Wellness Foundation (DRWF) [4]. DRWF’s study hinted that 1 in 10 individuals that experience a severe hypo (meaning requiring medical intervention or resuscitation) have considerable chances of another one within a fortnight.}
+
+\subsection{Background} 
+\par{\noindent After introspective analysis supported by information from the National Diabetes Inpatient Safety Audit (NDISA) [5] it has been recognized that severe hypoglycaemia and recurrent severe hypoglycaemia have been occurring relatively frequently across GSTT medical facilities. The NDISA forms part of the National Diabetes Audit (NDA), and it maintains that “The prevalence of diabetes continues to increase. In England between 2017-18 and 2021-22 prevalence of type 1 diabetes went up from 248,240 to 270,935 and the prevalence of type 2 and other diabetes from 2,952,695 to 3,336,980”, as of 2022 [5]. }
+
+\vspace{10pt}
+\par{\noindent GSTT administers upwards of 500,000 point-of-care glucose tests (POCT) annually, in addition to kidney function and glycated haemoglobin (HbA1c) tests as well. The Trust also possesses blood glucose / ketone data with additional linked data including demographics, dates of admission and discharge, patient as well as family history and current or previous medications. They have two major kinds of patient records, inpatient records for patients that have to stay over the course of one or multiple nights (for example, in case of surgeries or for long term care), and outpatient records where the patient doesn’t require overnight stay. The Trust manages all of this data through their electronic health record management system called Epic, and facilitates patient access to their own records through the MyChart web application.}
+
+\vspace{10pt}
+\par{\noindent Hypoglycaemia is a frequent complication amongst inpatients having complex health conditions, especially within those in intensive care settings that have been / are critically ill due to advanced diseases or comorbidities, or in patients following major surgical interventions. The Trust is undertaking proactive measures to identify and mitigate the risk of hypoglycaemic episodes at an early stage, to support better planning, reduce healthcare costs, efficiently allocate hospital resources and also schedule operations optimally. The ideal way to assess risk would along the lines of developing tools to predict individualized risk scores for inpatients after considering all relevant factors. However, this presents a herculean task due to the sheer volume and complexity of factors involved, compounded by the challenges of producing reliable results even within small populations — such as those in remote areas — while also adhering to legal and governmental regulations: 
+\begin{enumerate}
+	\item Weighing up the risk of hypoglycaemia depends upon numerous aspects such as lifestyle, renal function, recent food intake, blood glucose history and current medication to name a few, making this a highly complicated modelling problem. In addition to this, patients differ widely in age, comorbidities, ethnic factors and even insulin sensitivity. This variability makes it a formidable challenge to develop a model that is generalizable, dependable and unbiased.
+	\item Any such analytical tool in the vicinity of patient healthcare requires medical evaluation and approval, validation trials, governance oversight as well as ethical considerations. Even a good model may fail if it does not fit the clinical workflow. Initial skepticism towards AI, the effort required to train staff, defining clear responsibilities and limits of liability, and rehearsing procedures or plans of action for every possible scenario will all produce appreciable organizational inertia.
+\end{enumerate}
+}
+
+\vspace{10pt}
+\par{\noindent Successfully implementing even a small-scale solution, within GSTT to begin with, would be a significant strategic breakthrough that serves as a foundational model which other NHS trusts or institutions could adapt and build upon. This positions this initiative as a valuable, worthwhile research endeavour.}
+
+
 \subsection{Aims and Objectives} 
-% The problems and project objectives should be stated comprehensively. The motivations of the project should be presented. The techniques and approaches used to deal with the problem should be stated with justifications, and the contributions and main results achieved should be stated clearly. The structure of the report can be described briefly at the end see \autoref{sub:background}.
 
-
+\subsection{Report Structure}
 
 \subsubsection{Dissertation Length}
-	The dissertation should be less than 15000 words.
+
+
+% ================================================ TEMPLATE LEFTOVERS for ref ==========================================================
+
+% \subsection{Aims and Objectives} 
+% % The problems and project objectives should be stated comprehensively. The motivations of the project should be presented. The techniques and approaches used to deal with the problem should be stated with justifications, and the contributions and main results achieved should be stated clearly. The structure of the report can be described briefly at the end see \autoref{sub:background}.
+
+
+
+% \subsubsection{Dissertation Length}
+% 	The dissertation should be less than 15000 words.
 	
-\paragraph{Dissertation Length 2} ~\newline
-	Refer to KEATS for suggested structure
+% \paragraph{Dissertation Length 2} ~\newline
+% 	Refer to KEATS for suggested structure
 	
-\noindent \subparagraph{More subsections}~\newline
+% \noindent \subparagraph{More subsections}~\newline
 	
 	
 
-\subsection{Background and Literature Survey} \label{sub:background}
- It gives an overall picture about the work with a clear review of the relevant literature.  The background of the project should be given.  What have been done to deal with the problem should be stated clearly.  The pros and cons of various existing algorithms and approaches should be stated as well.  Differences between your proposed method and the existing ones should be briefly described. It is important to make sure that the discussion is structured and coherent; the key issues are summarised; key and relevant references are used critically analysed and the literature is covered comprehensively.
+% \subsection{Background and Literature Survey} \label{sub:background}
+%  It gives an overall picture about the work with a clear review of the relevant literature.  The background of the project should be given.  What have been done to deal with the problem should be stated clearly.  The pros and cons of various existing algorithms and approaches should be stated as well.  Differences between your proposed method and the existing ones should be briefly described. It is important to make sure that the discussion is structured and coherent; the key issues are summarised; key and relevant references are used critically analysed and the literature is covered comprehensively.
 
-The following links may help on literature review:
-\begin{itemize}
-	\item \textbf{IEEE Xplore digital library} (\hyperref[http://ieeexplore.ieee.org]{http://ieeexplore.ieee.org/}): a resource for accessing IEEE published scientific and technical publications (You must be with King's network to get access to the digital library)
-	\item \textbf{ScienceDirect.com} (\textbf{ScienceDirect.com} \hyperref[http://scienceDirect.com]{http://scienceDirect.com}): an electronic database offering journal papers not published by IEEE (You must be with King's network to get access to the database)
-\end{itemize}
+% The following links may help on literature review:
+% \begin{itemize}
+% 	\item \textbf{IEEE Xplore digital library} (\hyperref[http://ieeexplore.ieee.org]{http://ieeexplore.ieee.org/}): a resource for accessing IEEE published scientific and technical publications (You must be with King's network to get access to the digital library)
+% 	\item \textbf{ScienceDirect.com} (\textbf{ScienceDirect.com} \hyperref[http://scienceDirect.com]{http://scienceDirect.com}): an electronic database offering journal papers not published by IEEE (You must be with King's network to get access to the database)
+% \end{itemize}
 
-\subsection{Insert More Sections if Necessary}
+% \subsection{Insert More Sections if Necessary}
