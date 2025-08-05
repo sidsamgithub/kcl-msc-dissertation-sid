@@ -3,25 +3,25 @@
 \contentsline {subsection}{\numberline {1.2}Background}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Aims and Objectives}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Report Structure}{3}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Dissertation Length}{3}{subsubsection.1.4.1}%
-\contentsline {section}{\numberline {2}Background theories \& Literature Survey}{4}{section.2}%
-\contentsline {section}{\numberline {3}Dataset}{5}{section.3}%
-\contentsline {section}{\numberline {4}Objectives, Specification and Design}{6}{section.4}%
-\contentsline {section}{\numberline {5}Methodology and Implementation}{6}{section.5}%
-\contentsline {section}{\numberline {6}Results, Analysis and Evaluation}{6}{section.6}%
-\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{6}{section.7}%
-\contentsline {section}{\numberline {8}Others}{7}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Maths}{7}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Glossary and acronyms}{7}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Figures}{7}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Table}{8}{subsection.8.4}%
-\contentsline {section}{\numberline {9}More Others}{9}{section.9}%
-\contentsline {subsection}{\numberline {9.1}What is calibration?}{9}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Numerical methods for calibration}{9}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Conclusion}{10}{section.10}%
-\contentsline {section}{References}{11}{section*.9}%
-\contentsline {section}{\numberline {A}Appendix}{12}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Points to Note}{12}{subsection.A.1}%
-\contentsline {section}{\numberline {B}Review of stochastic calculus}{13}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Riemann integration}{13}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}The It\^o integral}{13}{subsection.B.2}%
+\contentsline {subsubsection}{\numberline {1.4.1}Dissertation Length}{4}{subsubsection.1.4.1}%
+\contentsline {section}{\numberline {2}Background theories \& Literature Survey}{5}{section.2}%
+\contentsline {section}{\numberline {3}Dataset}{6}{section.3}%
+\contentsline {section}{\numberline {4}Objectives, Specification and Design}{7}{section.4}%
+\contentsline {section}{\numberline {5}Methodology and Implementation}{7}{section.5}%
+\contentsline {section}{\numberline {6}Results, Analysis and Evaluation}{7}{section.6}%
+\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{7}{section.7}%
+\contentsline {section}{\numberline {8}Others}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Maths}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Glossary and acronyms}{8}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Figures}{8}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Table}{9}{subsection.8.4}%
+\contentsline {section}{\numberline {9}More Others}{10}{section.9}%
+\contentsline {subsection}{\numberline {9.1}What is calibration?}{10}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Numerical methods for calibration}{10}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Conclusion}{11}{section.10}%
+\contentsline {section}{References}{12}{section*.9}%
+\contentsline {section}{\numberline {A}Appendix}{13}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Points to Note}{13}{subsection.A.1}%
+\contentsline {section}{\numberline {B}Review of stochastic calculus}{14}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Riemann integration}{14}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}The It\^o integral}{14}{subsection.B.2}%

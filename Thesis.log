@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  5 AUG 2025 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  5 AUG 2025 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1014,9 +1014,21 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 ]
 
-[2])
+[2]
+Underfull \hbox (badness 1642) in paragraph at lines 36--37
+\OT1/cmr/m/n/10.95 pro-vided in-cludes de-mo-graphic de-tails, length of hos-pi-tal stay, and ward
+ []
 
-[3]
+
+Underfull \hbox (badness 7468) in paragraph at lines 37--38
+[]\OT1/cmr/bx/n/10.95 To iden-tify the main in-flu-enc-ing / con-tribut-ing fac-tors for
+ []
+
+
+
+[3])
+
+[4]
 \openout2 = `contents/background.aux'.
 
  (contents/background.tex
@@ -1028,7 +1040,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
 )
 
-[4
+[5
 
 
 
@@ -1052,7 +1064,7 @@ Underfull \hbox (badness 3492) in paragraph at lines 4--127
 
 
 
-[5
+[6
 
 
 
@@ -1076,23 +1088,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
 
-[6
+[7
 
 
 
 ]
 
-LaTeX Warning: Citation `Doe11' on page 7 undefined on input line 28.
+LaTeX Warning: Citation `Doe11' on page 8 undefined on input line 28.
 
 \@gls@deffile=\write9
 \openout9 = `Thesis.glsdefs'.
 
 
-LaTeX Warning: Citation `Joh11' on page 7 undefined on input line 46.
+LaTeX Warning: Citation `Joh11' on page 8 undefined on input line 46.
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 46.
 
-LaTeX Warning: Citation `JohSil05' on page 7 undefined on input line 49.
+LaTeX Warning: Citation `JohSil05' on page 8 undefined on input line 49.
 
 Package epstopdf Info: Source file: <figures/Picture.eps>
 (epstopdf)                    date: 2025-08-01 09:21:53
@@ -1103,14 +1115,14 @@ Package epstopdf Info: Source file: <figures/Picture.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Picture-eps-converted-to.pdf figures/Picture.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Picture-eps-converted-to.pdf, id=241, 557.08125pt x 557.08125pt>
+<figures/Picture-eps-converted-to.pdf, id=245, 557.08125pt x 557.08125pt>
 File: figures/Picture-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Picture-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Picture-eps-converted-to.pdf  used on input line 53.
 (pdftex.def)             Requested size: 111.41428pt x 111.41428pt.
 
 
-[7
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1149,7 +1161,7 @@ Package pdftex.def Info: figures/Picture-eps-converted-to.pdf  used on input lin
 (pdftex.def)             Requested size: 167.12566pt x 167.12566pt.
 
 
-[8
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1161,22 +1173,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has 
 l.97 
      ]
 
-LaTeX Warning: Citation `website:fermentas-lambda' on page 9 undefined on input line 101.
+LaTeX Warning: Citation `website:fermentas-lambda' on page 10 undefined on input line 101.
 
 )
 
-[9]
+[10]
 \openout2 = `contents/conclusion.aux'.
 
  (contents/conclusion.tex)
 
-[10
+[11
 
 
 
 ] (Thesis.bbl)
 
-[11
+[12
 
 
 ]
@@ -1189,11 +1201,11 @@ Underfull \hbox (badness 1226) in paragraph at lines 10--11
 
 
 
-[12
+[13
 
 ])
 
-[13] (Thesis.aux (contents/acknowledgements.aux) (contents/abstract.aux) (contents/nomenclature.aux) (contents/figures_tables.aux) (contents/introduction.aux) (contents/background.aux) (contents/dataset.aux) (contents/main.aux) (contents/conclusion.aux) (contents/app_1.aux))
+[14] (Thesis.aux (contents/acknowledgements.aux) (contents/abstract.aux) (contents/nomenclature.aux) (contents/figures_tables.aux) (contents/introduction.aux) (contents/background.aux) (contents/dataset.aux) (contents/main.aux) (contents/conclusion.aux) (contents/app_1.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -1206,8 +1218,8 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5B3090D32F9F3F487A02C216EC9ED0A1;3997.
  ) 
 Here is how much of TeX's memory you used:
- 31246 strings out of 468149
- 627727 string characters out of 5429147
+ 31247 strings out of 468149
+ 627734 string characters out of 5429147
  1084465 words of memory out of 5000000
  59199 multiletter control sequences out of 15000+600000
  636264 words of font info for 75 fonts, out of 8000000 for 9000
@@ -1220,9 +1232,9 @@ pdfTeX warning (dest): name{glo:lvm} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:Linux} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi1037\wasy10.pk><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (21 pages, 301691 bytes).
+Output written on Thesis.pdf (22 pages, 306288 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
