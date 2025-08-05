@@ -1,33 +1,35 @@
 \section{Dataset}
 
+\subsection{Raw Data}
+
 \par{\noindent
 
     Our industry advisor from GSTT has graciously provided a year's worth of data in multiple .xlsx files, which have been combined into one for the purposes of analysis and research for this project. The \textbf{raw fields provided} within the data were:  
 
     \begin{itemize}
         \item \textbf{UniqueID:} Unique identifier for the patient and test, which is just a number. Meant to identify same patients (not personally) when considered together with Order Time, Order Date and Age, as same patients can have multiple blood glucose tests during their stay. 
-        \item \textbf{Order Date:} The date when the glucose measurement was ordered or taken 
-        \item \textbf{Order Time:} The timestamp at which the glucose measurement was ordered or taken
-        \item \textbf{Inpatient Admission Date:} The date at which the patient was admitted into the medical facility
-        \item \textbf{Discharge Date:} The date the patient was discharged from the medical facility
-        \item \textbf{Length of Stay:} The amount of time the patient has spent in the medical facility in days and hours (for eg. "5d 6h")
-        \item \textbf{Ward:} The ward that the glucose measurement was taken in, usually matches the ward that the patient was admitted to
+        \item \textbf{Order Date:} The date when the glucose measurement was ordered or taken.
+        \item \textbf{Order Time:} The timestamp at which the glucose measurement was ordered or taken.
+        \item \textbf{Inpatient Admission Date:} The date at which the patient was admitted into the medical facility.
+        \item \textbf{Discharge Date:} The date the patient was discharged from the medical facility.
+        \item \textbf{Length of Stay:} The amount of time the patient has spent in the medical facility in days and hours (for eg. "5d 6h").
+        \item \textbf{Ward:} The ward that the glucose measurement was taken in, usually matches the ward that the patient was admitted to.
         \item \textbf{Last Lab Test Results:} The result of the glucose measurement in mmol/L. Most values in this column are of the format "Manual blood glucose: 8.70 mmol/L" or "POCT Glucose Blood Manually: 2.7 mmol/L".
-        \item \textbf{Age:} Age of the patient at the time of measuring blood glucose in years
+        \item \textbf{Age:} Age of the patient at the time of measuring blood glucose in years.
         \item \textbf{Ethnicity:} Specific ethnicity of the patient, values ranging from "South American - Columbian" to "Black or Black British - Nigerian" to "Other" or even missing.
         \item \textbf{Gender Identity:} Gender of the patient.
-        \item \textbf{HbA1c:} Numerical value of HbA1c in mmol/mol.
-        \item \textbf{HbA1c Date:} Date the HbA1c test was done for that patient
+        \item \textbf{HbA1c:} Numerical value of HbA1c in mmol/mol, which is a measure of the average blood glucose over the past 2-3 months. Glucose in the body sticks to red blood cells to be transported around, and gets consumed to generate energy. If the body cannot use up sugar properly then more of it sticks to blood cells and builds up. Red blood cells are active for around 2-3 months, so the reading is generally taken quarterly, and is an indicator for blood sugar problems. \cite{whatishba1c}.  
+        \item \textbf{HbA1c Date:} Date the HbA1c test was done for that patient.
         \item \textbf{eGFR:} Estimated Glomerular Filtration rate, which is a measurement of how well the kidneys are functioning. This is a percentage from 0 to 90, with anything 91 and over displayed by the NHS electronic health record system (Epic) as "\textgreater91" because an eGFR of 91 percent and above indicates healthy renal function.
         \item \textbf{eGFR Date:} The date the eGFR test was conducted. 
     \end{itemize}
 
-    
+    \subsection{Cleaned Dataset}
     \vspace{10pt}
-    The variables \textbf{derived from these features} were: 
+    The following variables were \textbf{derived from the raw features} and used for analysis: 
     
     \begin{itemize}
-        \item \textbf{Age\textunderscore Range:}  Categorical variable to store the age category of the patient based on their age to aid in visualisation. Possible values for this column are: ``Young (1 to 25)'', ``Adult / Middle Aged (26-50)'', ``Older Adult / Old (51-75)'' and ``Elderly (76-100)''
+        \item \textbf{Age\textunderscore Range:}  Categorical variable to store the age category of the patient based on their age to aid in visualisation. Possible values for this column are: ``Young (1 to 25)'', ``Adult / Middle Aged (26-50)'', ``Older Adult / Old (51-75)'' and ``Elderly (76-100)''.
 
         \item \textbf{Has\textunderscore Hypoglycemia:} Binary variable to store whether the patient has hypoglycemia. A glucose measurement of 4mmol/L and below means the patient is hypoglycemic and has 1 in this column, 0 otherwise. 
 
@@ -35,7 +37,7 @@
             1. ``Severe Hypoglycemia'' - for blood glucose values 2.2 and below \newline
             2. ``Hypoglycemia''- for blood glucose values from 2.3 to 4 both inclusive \newline
             3. ``Target Range''- for blood glucose values from 4.1 to 11 both inclusive \newline
-            4. ``Hyperglycemia''- for blood glucose values above 11 \newline
+            4. ``Hyperglycemia''- for blood glucose values above 11. 
 
         \item \textbf{eGFR\textunderscore Category:} Categorical variable that shows how serious the loss of kidney function is, based on the eGFR percentage. The possible values for this column are: \newline
             1. ``eGFR less than 20 - Kidney Failure'' - for eGFR less than or equal to 20\% \newline
@@ -43,7 +45,7 @@
             3. ``eGFR between 40 \& 60 - Significant Loss of Kidney Function''- for eGFR above 40\% but less than or equal to 60\% \newline
             4. ``eGFR between 60 \& 80 - Moderate Loss of Kidney Function''- for eGFR above 60\% but less than or equal to 80\% \newline
             5. ``eGFR between 80 \& 90 - Minor Loss of Kidney Function''- for eGFR above 80\% but less than or equal to 90\% \newline
-            6. ``eGFR above 90 - Normal kidney function''- for eGFR above 90\% (data has been processed to only include "91" for this class as healthy eGFR is 91\% and above). \newline
+            6. ``eGFR above 90 - Normal kidney function''- for eGFR above 90\% (data has been processed to only include "91" for this class as healthy eGFR is 91\% and above). 
 
         \item \textbf{Wider\textunderscore Ethnic\textunderscore Group:} Categorical variable to store the overarching ethnic group based on the one specified in the ethnicity column, as that had a total of 57 unique values. Possible values are: ``Unknown or Not Stated'', ``White'', ``Mixed'', ``Asian or Asian British'', ``Black or Black British'' and ``Other Ethnic Groups''.
 
