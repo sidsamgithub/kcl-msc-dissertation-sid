@@ -1,0 +1,21 @@
+\section{Dataset}
+
+\par {
+    Dr. Piya Sen Gupta from GSTT provided us with a sample dataset for an initial exploratory data analysis, with another more comprehensive dataset for predictions to be provisioned later. This sample data contained glucose and other test details for around 580 patients, with the following columns: 
+        % PatientID (CodePatientID 1_588) - A unique identifier for each patient (from 1-588)
+TestDate / TestTime - Timestamp information, for tracking when tests were conducted.
+Test ID - Identifies specific medical tests performed.
+Facility / Location - Information about where the test was conducted, useful for geographical or institutional analysis.
+Device name - The device used for measurement, which can impact data accuracy.
+Value - the value of blood glucose in mmol/L.
+U-o-M (Unit of Measurement) - Defines the units in which values are recorded. This was mmol/L for every row (every value in the column).  
+AdmitAgeNBR - The patient's age at hospital admission, which can affect hypoglycemia risk.
+AdmitDTS / DischargeDTS - Admission and discharge timestamps, useful for analyzing hospitalization duration and outcomes. 
+% mins_since_admit - Time elapsed since admission, useful for tracking glucose fluctuations during hospitalization.
+GenderDSC - Patient’s gender, which can influence hypoglycemia risk.
+EthnicDSC - Ethnicity descriptor, which may correlate with genetic predispositions to hypoglycemia.
+% EGFR_Value / EGFR_Date - Estimated Glomerular Filtration Rate, an indicator of kidney function, which is important as kidney disease can affect glucose metabolism.
+% HbA1c_Value / HbA1c_Date - Hemoglobin A1c, a long-term blood glucose control marker. 
+% Glucose_Value / Glucose_Date - Blood glucose levels, directly related to hypoglycemia detection.
+% Weight - Body weight, which influences insulin sensitivity and hypoglycemia risk.
+}
