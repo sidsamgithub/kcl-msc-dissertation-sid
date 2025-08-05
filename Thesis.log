@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  5 AUG 2025 08:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  5 AUG 2025 08:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,7 +1103,7 @@ Package epstopdf Info: Source file: <figures/Picture.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Picture-eps-converted-to.pdf figures/Picture.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Picture-eps-converted-to.pdf, id=233, 557.08125pt x 557.08125pt>
+<figures/Picture-eps-converted-to.pdf, id=235, 557.08125pt x 557.08125pt>
 File: figures/Picture-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Picture-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Picture-eps-converted-to.pdf  used on input line 53.
@@ -1189,6 +1189,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 \OT1/cmtt/m/n/10.95 20250619222608 / https : / / www . diabetes . org . uk / about-[]us / news-[]and-[]views /
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\OT1/cmr/m/n/10.95 Diabetes Pro-fes-sional Care, ``Al-most 60costs are for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\OT1/cmr/m/n/10.95 `pre-ventable' com-pli-ca-tions.'' []$\OT1/cmtt/m/n/10.95 https : / / web . archive . org / web /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\OT1/cmtt/m/n/10.95 20250625053952 / https : / / www . diabetesprofessionalcare . com / news /
+ []
+
 )
 
 [11
@@ -1221,10 +1236,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5B3090D32F9F3F487A02C216EC9ED0A1;3997.
  ) 
 Here is how much of TeX's memory you used:
- 31238 strings out of 468149
- 627543 string characters out of 5429147
- 1084299 words of memory out of 5000000
- 59195 multiletter control sequences out of 15000+600000
+ 31240 strings out of 468149
+ 627594 string characters out of 5429147
+ 1084343 words of memory out of 5000000
+ 59196 multiletter control sequences out of 15000+600000
  636264 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,12n,135p,2606b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1235,9 +1250,9 @@ pdfTeX warning (dest): name{glo:lvm} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:Linux} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi1037\wasy10.pk><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (21 pages, 300618 bytes).
+Output written on Thesis.pdf (21 pages, 302509 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

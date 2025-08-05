@@ -29,36 +29,36 @@ Warning--I didn't find a database entry for "Doe11"
 Warning--I didn't find a database entry for "Joh11"
 Warning--I didn't find a database entry for "JohSil05"
 Warning--I didn't find a database entry for "website:fermentas-lambda"
-You've used 1 entry,
+You've used 2 entries,
             1876 wiz_defined-function locations,
-            499 strings with 4072 characters,
-and the built_in function-call counts, 154 in all, are:
-= -- 13
-> -- 4
+            503 strings with 4368 characters,
+and the built_in function-call counts, 286 in all, are:
+= -- 26
+> -- 8
 < -- 0
-+ -- 2
-- -- 1
-* -- 6
-:= -- 30
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
++ -- 4
+- -- 2
+* -- 10
+:= -- 49
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 4
-empty$ -- 19
-format.name$ -- 1
-if$ -- 35
+cite$ -- 2
+duplicate$ -- 8
+empty$ -- 37
+format.name$ -- 2
+if$ -- 69
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 7
+newline$ -- 11
+num.names$ -- 2
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3
+skip$ -- 6
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -67,7 +67,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 11
+while$ -- 2
+width$ -- 3
+write$ -- 20
 (There were 4 warnings)
