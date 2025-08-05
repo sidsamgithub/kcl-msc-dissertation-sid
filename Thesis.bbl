@@ -3,13 +3,32 @@
 \bibitem{diabetescosts}
 {Diabetes UK}, ``Cost of devastating complications highlights urgent need to
   transform diabetes care in the {{UK}}.''
-  \url{https://web.archive.org/web/20250619222608/https://www.diabetes.org.uk/about-us/news-and-views/cost-complications-highlights-urgent-need-transform-diabetes}.
+  \href{https://web.archive.org/web/20250619222608/https://www.diabetes.org.uk/about-us/news-and-views/cost-complications-highlights-urgent-need-transform-diabetes}{\blue{URL}}.
 \newblock Accessed: 2025-07-07.
 
 \bibitem{preventablediabetescosts}
 {Diabetes Professional Care}, ``Almost 60% of nhs’ £10.7bn annual diabetes
   costs are for ‘preventable’ complications.''
-  \url{https://web.archive.org/web/20250625053952/https://www.diabetesprofessionalcare.com/news/60-nhs-107bn-annual-diabetes-costs-preventable-complications}.
+  \href{https://web.archive.org/web/20250625053952/https://www.diabetesprofessionalcare.com/news/60-nhs-107bn-annual-diabetes-costs-preventable-complications}{\blue{URL}}.
+\newblock Accessed: 2025-07-07.
+
+\bibitem{lihttool}
+{Hospital Pharmacy Europe}, ``Data from health economic model shows cost of
+  managing hypoglycaemia.''
+  \href{https://hospitalpharmacyeurope.com/news/data-from-health-economic-model-shows-cost-of-managing-hypoglycaemia/}{\blue{URL}}.
+\newblock Accessed: 2025-07-07.
+
+\bibitem{diabetesemergencycallouts}
+{Diabetes Research and Wellness Foundation}, ``Emergency call-outs for
+  diabetes-related condition reduced following hypos education campaign.''
+  \href{https://web.archive.org/web/20250428184631/https://www.drwf.org.uk/news-and-events/news/emergency-call-outs-for-diabetes-related-condition-reduced-following-hypos-education-campaign/}{\blue{URL}}.
+\newblock Accessed: 2025-07-07.
+
+\bibitem{nationaldiabetesaudit22}
+{NHS Digital}, ``National diabetes audit 2021-22, report 1: Care processes and
+  treatment targets, detailed analysis report.''
+  \href{https://digital.nhs.uk/data-and-information/publications/statistical/national-diabetes-audit/report-1-care-processes-and-treatment-targets-2021-22-full-report/section-1---incidence-and-prevalence-17-18---21-22-copy}{\blue{National
+  Diabetes Audit 2021-22}}.
 \newblock Accessed: 2025-07-07.
 
 \end{thebibliography}
