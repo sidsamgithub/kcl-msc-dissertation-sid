@@ -203,7 +203,7 @@
 
 \begin{minipage}{0.5\textwidth}
 \begin{flushleft}
-	\textbf{Signature:} \includegraphics[scale=0.3,align=c]{figures/siddSign.png}
+	\textbf{Signature:} \includegraphics[scale=0.27,align=c]{figures/siddSign.png}
 \end{flushleft}
 \end{minipage}%
 \begin{minipage}{0.5\textwidth}
