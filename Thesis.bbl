@@ -1,20 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Doe11}
-J.~Doe, {\em The Title}.
-\newblock PhD thesis, University of Mars, 2011.
-
-\bibitem{Joh11}
-I.~M. Johnstone, {\em Gaussian estimation: Sequence and multiresolution
-  models}.
-\newblock Publisher, 2011.
-
-\bibitem{JohSil05}
-I.~Johnstone and B.~Silverman, ``Ebayesthresh: R programs for empirical bayes
-  thresholding,'' {\em Journal of Statistical Software}, vol.~12, no.~8,
-  pp.~1--38, 2005.
-
-\bibitem{website:fermentas-lambda}
-F.~Inc., ``Phage lambda: description \& restriction map,'' November 2008.
+\bibitem{diabetesnumbers}
+{Diabetes UK}, ``Cost of devastating complications highlights urgent need to
+  transform diabetes care in the {{UK}}.''
+  \url{https://web.archive.org/web/20250619222608/https://www.diabetes.org.uk/about-us/news-and-views/cost-complications-highlights-urgent-need-transform-diabetes}.
+\newblock Accessed: 2025-07-07.
 
 \end{thebibliography}

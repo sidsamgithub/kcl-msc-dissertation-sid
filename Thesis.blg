@@ -25,44 +25,49 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: contents/app_1.aux
 Database file #1: contents/sample1.bib
-You've used 4 entries,
+Warning--I didn't find a database entry for "Doe11"
+Warning--I didn't find a database entry for "Joh11"
+Warning--I didn't find a database entry for "JohSil05"
+Warning--I didn't find a database entry for "website:fermentas-lambda"
+You've used 1 entry,
             1876 wiz_defined-function locations,
-            512 strings with 4091 characters,
-and the built_in function-call counts, 680 in all, are:
-= -- 68
-> -- 20
+            499 strings with 4072 characters,
+and the built_in function-call counts, 154 in all, are:
+= -- 13
+> -- 4
 < -- 0
-+ -- 9
-- -- 5
-* -- 38
-:= -- 110
-add.period$ -- 6
-call.type$ -- 4
-change.case$ -- 2
++ -- 2
+- -- 1
+* -- 6
+:= -- 30
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 33
-empty$ -- 75
-format.name$ -- 5
-if$ -- 163
+cite$ -- 1
+duplicate$ -- 4
+empty$ -- 19
+format.name$ -- 1
+if$ -- 35
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 3
-newline$ -- 17
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 1
+pop$ -- 7
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 16
+skip$ -- 3
 stack$ -- 0
-substring$ -- 19
-swap$ -- 7
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 5
-write$ -- 39
+while$ -- 1
+width$ -- 2
+write$ -- 11
+(There were 4 warnings)
