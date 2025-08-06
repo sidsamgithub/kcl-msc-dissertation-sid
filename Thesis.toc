@@ -8,6 +8,7 @@
 \contentsline {subsection}{\numberline {2.1}The Diabetes Management Tightrope}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Methods Of Monitoring Blood Glucose Over Time}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Review Of Relevant Literature and Similar Research}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}A Novel Contribution to ML-based Glycaemia management in the NHS}{7}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Dataset}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Raw Data}{8}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Cleaned Dataset}{9}{subsection.3.2}%
