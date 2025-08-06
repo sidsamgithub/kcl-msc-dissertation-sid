@@ -27,7 +27,9 @@
 \contentsline {subsection}{\numberline {6.1}Maths}{18}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Figures}{18}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{20}{section.7}%
-\contentsline {section}{\numberline {8}Conclusion}{21}{section.8}%
-\contentsline {section}{References}{22}{section*.7}%
-\contentsline {section}{\numberline {A}Appendix}{24}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Dataset}{24}{subsection.A.1}%
+\contentsline {subsection}{\numberline {7.1}Ethical and Professional Issues}{20}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Legal and Social Issues}{21}{subsubsection.7.1.1}%
+\contentsline {section}{\numberline {8}Conclusion}{22}{section.8}%
+\contentsline {section}{References}{23}{section*.6}%
+\contentsline {section}{\numberline {A}Appendix}{25}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dataset}{25}{subsection.A.1}%

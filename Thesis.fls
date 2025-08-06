@@ -446,10 +446,6 @@ INPUT .\Thesis.lof
 INPUT .\Thesis.lof
 INPUT Thesis.lof
 OUTPUT Thesis.lof
-INPUT .\Thesis.lot
-INPUT .\Thesis.lot
-INPUT Thesis.lot
-OUTPUT Thesis.lot
 INPUT .\contents\introduction.tex
 INPUT .\contents\introduction.tex
 OUTPUT contents\introduction.aux

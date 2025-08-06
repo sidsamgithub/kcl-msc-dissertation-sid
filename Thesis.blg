@@ -31,36 +31,36 @@ A level-1 auxiliary file: contents/app_1.aux
 Database file #1: contents/sample1.bib
 Warning--I didn't find a database entry for "Doe11"
 Warning--I didn't find a database entry for "JohSil05"
-You've used 10 entries,
+You've used 12 entries,
             1876 wiz_defined-function locations,
-            540 strings with 6845 characters,
-and the built_in function-call counts, 1384 in all, are:
-= -- 131
-> -- 47
+            552 strings with 7316 characters,
+and the built_in function-call counts, 1648 in all, are:
+= -- 157
+> -- 55
 < -- 0
-+ -- 22
-- -- 12
-* -- 54
-:= -- 214
-add.period$ -- 19
-call.type$ -- 10
-change.case$ -- 10
++ -- 26
+- -- 14
+* -- 62
+:= -- 252
+add.period$ -- 23
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 45
-empty$ -- 180
-format.name$ -- 12
-if$ -- 346
+cite$ -- 12
+duplicate$ -- 53
+empty$ -- 216
+format.name$ -- 14
+if$ -- 414
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 12
 missing$ -- 1
-newline$ -- 42
-num.names$ -- 10
-pop$ -- 65
+newline$ -- 50
+num.names$ -- 12
+pop$ -- 79
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 27
+skip$ -- 33
 stack$ -- 0
 substring$ -- 0
 swap$ -- 1
@@ -69,7 +69,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 10
-width$ -- 12
-write$ -- 93
+while$ -- 12
+width$ -- 14
+write$ -- 111
 (There were 2 warnings)
