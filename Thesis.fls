@@ -466,6 +466,7 @@ OUTPUT contents\literature_review.aux
 INPUT .\contents\literature_review.tex
 INPUT .\contents\literature_review.tex
 INPUT contents\literature_review.tex
+INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\contents\dataset.tex
 INPUT .\contents\dataset.tex
 OUTPUT contents\dataset.aux
@@ -475,7 +476,6 @@ INPUT contents\dataset.tex
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
 INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
-INPUT C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\contents\methodology_implementation.tex
 INPUT .\contents\methodology_implementation.tex
 OUTPUT contents\methodology_implementation.aux
