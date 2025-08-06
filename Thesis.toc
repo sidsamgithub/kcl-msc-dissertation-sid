@@ -16,13 +16,16 @@
 \contentsline {subsection}{\numberline {4.1}Research Strategy and Approach}{11}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Dealing With Imbalanced Data}{13}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Machine Learning Theories}{13}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Main Results and Findings}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Interpretation Analysis and Evaluation}{14}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Math equations}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Maths}{14}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Figures}{14}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{16}{section.7}%
-\contentsline {section}{\numberline {8}Conclusion}{17}{section.8}%
-\contentsline {section}{References}{18}{section*.7}%
-\contentsline {section}{\numberline {A}Appendix}{20}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Dataset}{20}{subsection.A.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Decision Trees}{14}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Random Forest}{15}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}GridSearchCV}{16}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Main Results and Findings}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Interpretation Analysis and Evaluation}{17}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Math equations}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Maths}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Figures}{17}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{19}{section.7}%
+\contentsline {section}{\numberline {8}Conclusion}{20}{section.8}%
+\contentsline {section}{References}{21}{section*.7}%
+\contentsline {section}{\numberline {A}Appendix}{23}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dataset}{23}{subsection.A.1}%
