@@ -19,13 +19,15 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Decision Trees}{14}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Random Forest}{15}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}GridSearchCV}{16}{subsubsection.4.3.3}%
-\contentsline {section}{\numberline {5}Main Results and Findings}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Interpretation Analysis and Evaluation}{17}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Math equations}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Maths}{17}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Figures}{17}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{19}{section.7}%
-\contentsline {section}{\numberline {8}Conclusion}{20}{section.8}%
-\contentsline {section}{References}{21}{section*.7}%
-\contentsline {section}{\numberline {A}Appendix}{23}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Dataset}{23}{subsection.A.1}%
+\contentsline {subsubsection}{\numberline {4.3.4}Logistic Regression}{16}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}XGBoost}{17}{subsubsection.4.3.5}%
+\contentsline {section}{\numberline {5}Main Results and Findings}{18}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Interpretation Analysis and Evaluation}{18}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Math equations}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Maths}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Figures}{18}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Legal, Social, Ethical and Professional Issues}{20}{section.7}%
+\contentsline {section}{\numberline {8}Conclusion}{21}{section.8}%
+\contentsline {section}{References}{22}{section*.7}%
+\contentsline {section}{\numberline {A}Appendix}{24}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dataset}{24}{subsection.A.1}%
