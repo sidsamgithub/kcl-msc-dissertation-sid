@@ -3,7 +3,7 @@
 \section{Literature Survey \& Review} 
 
 \subsection{The Diabetes Management Tightrope}
-% \vspace{10pt}
+
 \noindent Managing diabetes often draws parallels with walking a metabolic tightrope. On one side lies the danger of hyperglycaemia and its associated \textit{long-term complications} such as diabetic retinopathy(damage to blood vessels in the eye leading to blindness) or renal function impairment (diabetic nephropathy), while on the other lies the \textit{immediate peril of hypoglycaemia}. For the longest time, clinicians have helped patients navigate this delicate balance, by utilising methods or practises that show where they are, but not necessarily where they are going, in terms of blood glucose measurements. Such a reactive approach with little account for anticipative elements has made hypoglycaemic episodes an unavoidable consequence of striving for tight glycaemic control. 
 
 \vspace{5pt}
@@ -13,17 +13,24 @@
 \noindent With scientific and technological progress that inevitably comes with time, comes the promise of a potential safety net: the ability to anticipate or foresee signs of an episode before they present. The dangerous tightrope walk can then be transformed into a manageable path, with the help of predictive systems built with advanced sensing technologies and computational power, that can assist patients to take pre-emptive action. This review will chart the progress in this field, understanding the methodologies and ideas that have been applied to forecast hypoglycaemic events, from early tracking methods to highly optimized modern algorithms.
 
 
-
-
 \subsection{Methods Of Monitoring Blood Glucose Over Time}
 
+\noindent The success rate of recognising patterns in blood glucose has been vastly upgraded through the years, spurred by both technological and procedural refinements in the monitoring of blood glucose, but it has been an arduous journey to get here. The earliest methods of testing blood glucose involved urine tests, where chemical reagents like Benedict's solution were used which changed colour in the presence of sugar. Such methods were only qualitative and retroactive - they offered no actionable information as they confirmed that blood glucose had been elevated at the time of the test or in the recent past. The first blood glucose meters did not appear until the 1960s, were large and cumbersome to work with, and were mainly found in clinics. Smaller, portable meters became available around the 1970s - 1980s yet still all such meters had to be used repetitvely throughout the day, offering only a snapshot of blood glucose level in time without any means of showing a trend, stability or lack thereof. 
 
+\vspace{5pt}
+\noindent The introduction of Continuous Glucose Monitoring (CGM) solutions from 2005 onwards completely revolutionized diabetic healthcare, allowing measurements to be taken effortlessly through sensors attached to the body. Medtronic and Dexcom's devices released after 2015 with highly improved sensor accuracy and user-friendliness even allowed connecting to smartphones and automatic insulin pumps, which could automatically stop insulin delivery if the patient did not respond to an alarm. Today's CGM's are even more cutting-edge, in that they continuously transmit data to a receiver. They are smartphone-app based for ease of use, offering enhanced features to show the trend and speed of glucose changes, alarms and alerts to proactively warn users, as well as sharing data with family members or doctors for remote monitoring and emergency handling \cite{evolutionOfCGM}. 
 
+\vspace{5pt}
+\noindent In modern times, there is huge amounts of data available to probe into, but the challenge lies in finding the correct relevant features, at the correct level of granularity as well as the right distribution, as medical data is exceptionally rarely obtained in balanced form. The availability of rich continuous streams of data from CGMs has stimulated additional research dedicated to developing and applying algorithms to both forecast hypoglycaemic events as well as identify outliers or patterns within the data, and I delve into this next.
 
+\subsection{Review Of Relevant Literature and Similar Research}
 
+\noindent A substantial body of literature now exists on the development of models for predicting hypoglycaemia in various settings. In many scenarios, a significant proportion of the research focuses on optimizing predictive accuracy of models. For instance H. Yang et al. in 2022 \cite{yangHaoJMIRMedicalInformatics} have used electronic health records(EHR) of patients admitted to West China Hospitals to develop a predictive model based on laboratory derived biomarkers (like lipoproteins, creatinine, globulin etc.).  A similar research to this was undertaken by S. Mantena et al. \cite{sMantenaCriticallyIll}  but on the publicly-available eICU Collaborative Research v2.0 database (eICU-CRD) that holds de-identified data for 200,000+ admissions in 553 ICUs across the USA. In reinforcement to this, UK-based studies have also been executed by Y. Ruan et al. \cite{yRuanOxfordHypoRiskPred} on four years worth of EHRs provided by Oxford University Hospitals NHS Foundation Trust in which they compared the performance of eighteen different predictive models based on demographic, laboratory, vital signs and previous medication predictors.  
 
+\vspace{5pt}
+\noindent A significant commonality was observed in all the three research works, which I have incorporated into my approach as well - the emergence of XGBoost as the best predictive model with highest Area Under Receiver Operating Characteristic Curve(AUROC). Even though all studies produce excellent results in terms of predictive performance, they are not primarily aimed at finding the critical values or "turning points" of the predictors at which predictions / classifications change, which is my objective for this project that also lines up with GSTT priorities.
 
-
+but almost all of this is based on highly controlled circumstances where a   
 
 
 
@@ -44,7 +51,5 @@ events, after employing various data driven models based on ML techniques such a
 In silico proof of concept studies like the one from Zecchin[3] have also been researched to investigate how continuous glucose monitoring short-term glucose prediction algorithms could be exploited to recognise the run up to hypoglycemic episodes, allowing the patient to 
 take appropriate countermeasures to mitigate events. They found that there was a significant reduction in both the time spent in a hypoglycemic event as well as the number 
 of hypoglycemic events. \\ \vspace{5pt}
-
-As this is a Knowledge Exchange Project (KEP) with NHS England I have been provided a real world dataset from GSTT. Medical data is difficult to obtain, and it rarely fits a research objective without needing much modification. 
 
 \end{flushleft}

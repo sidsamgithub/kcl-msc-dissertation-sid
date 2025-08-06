@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{diabetescosts}
 {Diabetes UK}, ``Cost of devastating complications highlights urgent need to
@@ -30,6 +30,34 @@
   \href{https://digital.nhs.uk/data-and-information/publications/statistical/national-diabetes-audit/report-1-care-processes-and-treatment-targets-2021-22-full-report/section-1---incidence-and-prevalence-17-18---21-22-copy}{\blue{National
   Diabetes Audit 2021-22}}.
 \newblock Accessed: 2025-07-07.
+
+\bibitem{evolutionOfCGM}
+C.~Bender, P.~Vestergaard, and S.~L. Cichosz, ``The history, evolution and
+  future of continuous glucose monitoring {(CGM)},'' {\em Diabetology}, vol.~6,
+  no.~3, 2025.
+
+\bibitem{yangHaoJMIRMedicalInformatics}
+{Yang H, Li J, Liu S, Yang X, Liu J}, ``Predicting risk of hypoglycemia in
+  patients with type 2 diabetes by electronic health record-based machine
+  learning: Development and validation. {JMIR Medical Informatics vol. 10,6
+  e36958. 16 Jun. 2022}.''
+  \href{https://pmc.ncbi.nlm.nih.gov/articles/PMC9247813/}{\blue{URL}}.
+\newblock Accessed: 2025-07-08.
+
+\bibitem{sMantenaCriticallyIll}
+{Mantena, S., Arévalo, A. R., Maley, J. H., da Silva Vieira, S. M.,
+  Mateo-Collado, R., da Costa Sousa, J. M., \& Celi, L. A. (2022)},
+  ``Predicting hypoglycemia in critically ill patients using machine learning
+  and electronic health records. {Journal of Clinical Monitoring and Computing,
+  36}.'' \href{https://pmc.ncbi.nlm.nih.gov/articles/PMC9152921/}{\blue{URL}}.
+\newblock Accessed: 2025-07-08.
+
+\bibitem{yRuanOxfordHypoRiskPred}
+{Y. Ruan, A. Bellot, Z. Moysova, G. D. Tan, A. Lumb, J. Davies, M. van der
+  Schaar, R. Rea}, ``Predicting the risk of inpatient hypoglycemia with machine
+  learning using electronic health records. diabetes care 1 july 2020.''
+  \href{https://doi.org/10.2337/dc19-1743}{\blue{URL}}.
+\newblock Accessed: 2025-07-08.
 
 \bibitem{whatishba1c}
 {Diabetes UK}, ``What is hba1c?.''
