@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  7 AUG 2025 08:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  7 AUG 2025 09:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,7 +855,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 89.
  (C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<kcl.png, id=154, 170.6375pt x 112.42pt>
+<kcl.png, id=150, 170.6375pt x 112.42pt>
 File: kcl.png Graphic file (type png)
 <use kcl.png>
 Package pdftex.def Info: kcl.png  used on input line 89.
@@ -883,7 +883,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 89--89
 []$[]$ 
  []
 
-<figures/siddSign.png, id=156, 289.08pt x 170.88844pt>
+<figures/siddSign.png, id=152, 289.08pt x 170.88844pt>
 File: figures/siddSign.png Graphic file (type png)
 <use figures/siddSign.png>
 Package pdftex.def Info: figures/siddSign.png  used on input line 89.
@@ -968,16 +968,16 @@ l.101 \include{contents/nomenclature}
 
 
 
-] (Thesis.toc
-
-[1
-
-
-])
+] (Thesis.toc)
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
 
+
+[1
+
+
+]
 
 [2]
 \openout2 = `contents/figures_tables.aux'.
@@ -1050,7 +1050,7 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 \openout2 = `contents/methodology_implementation.aux'.
 
  (contents/methodology_implementation.tex
-<figures/dataPreprocessingWf.png, id=326, 573.14125pt x 1185.42876pt>
+<figures/dataPreprocessingWf.png, id=321, 573.14125pt x 1185.42876pt>
 File: figures/dataPreprocessingWf.png Graphic file (type png)
 <use figures/dataPreprocessingWf.png>
 Package pdftex.def Info: figures/dataPreprocessingWf.png  used on input line 14.
@@ -1085,15 +1085,15 @@ l.18
 \openout2 = `contents/main_results.aux'.
 
  (contents/main_results.tex
-<figures/python_code/drop_duplicate_rows.png, id=362, 449.42906pt x 188.20313pt>
+<figures/python_code/drop_duplicate_rows.png, id=357, 449.42906pt x 188.20313pt>
 File: figures/python_code/drop_duplicate_rows.png Graphic file (type png)
 <use figures/python_code/drop_duplicate_rows.png>
-Package pdftex.def Info: figures/python_code/drop_duplicate_rows.png  used on input line 8.
+Package pdftex.def Info: figures/python_code/drop_duplicate_rows.png  used on input line 10.
 (pdftex.def)             Requested size: 359.54372pt x 150.56268pt.
-<figures/python_code/percent_missing_values_in_every_column.png, id=364, 566.115pt x 565.36218pt>
+<figures/python_code/percent_missing_values_in_every_column.png, id=359, 566.115pt x 565.36218pt>
 File: figures/python_code/percent_missing_values_in_every_column.png Graphic file (type png)
 <use figures/python_code/percent_missing_values_in_every_column.png>
-Package pdftex.def Info: figures/python_code/percent_missing_values_in_every_column.png  used on input line 17.
+Package pdftex.def Info: figures/python_code/percent_missing_values_in_every_column.png  used on input line 19.
 (pdftex.def)             Requested size: 226.44199pt x 226.14085pt.
 
 
@@ -1106,59 +1106,61 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.23 
-     
+      <./figures/python_code/drop_duplicate_rows.png>]
+
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.23 
-      <./figures/python_code/drop_duplicate_rows.png> <./figures/python_code/percent_missing_values_in_every_column.png>])
+l.35 
+      <./figures/python_code/percent_missing_values_in_every_column.png>])
 
-[19]
+[20]
 \openout2 = `contents/legal_ethical_professional_issues.aux'.
 
  (contents/legal_ethical_professional_issues.tex
 
-[20
+[21
 
 
 
 ])
 
-[21]
+[22]
 \openout2 = `contents/conclusion.aux'.
 
  (contents/conclusion.tex
 
-[22
+[23
 
 
 
 ])
 
-[23] (Thesis.bbl)
+[24] (Thesis.bbl)
 
-[24
+[25
 
 
 ]
 \openout2 = `contents/app_1.aux'.
 
  (contents/app_1.tex
-<figures/dataset_screenshot_xl.png, id=414, 1404.74812pt x 593.96906pt>
+<figures/dataset_screenshot_xl.png, id=413, 1404.74812pt x 593.96906pt>
 File: figures/dataset_screenshot_xl.png Graphic file (type png)
 <use figures/dataset_screenshot_xl.png>
 Package pdftex.def Info: figures/dataset_screenshot_xl.png  used on input line 7.
 (pdftex.def)             Requested size: 650.43pt x 275.02359pt.
 
 
-[25
+[26
 
 ]
 Overfull \vbox (138.54434pt too high) has occurred while \output is active []
 
 
 
-[26
+[27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1174,7 +1176,7 @@ Overfull \vbox (134.97229pt too high) has occurred while \output is active []
 
 
 
-[27
+[28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1185,7 +1187,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D67831B960E9B7E0715D666740B36B54;6615.
+(rerunfilecheck)             Checksum: 4D98301D98C2F2145538F5B7D0C213E6;6588.
  )
 (\end occurred inside a group at level 2)
 
@@ -1193,17 +1195,17 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 ### simple group (level 1) entered at line 13 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31195 strings out of 468149
- 629712 string characters out of 5429147
+ 31194 strings out of 468149
+ 629689 string characters out of 5429147
  1082884 words of memory out of 5000000
- 59114 multiletter control sequences out of 15000+600000
+ 59113 multiletter control sequences out of 15000+600000
  636442 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,13n,135p,2606b,913s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi1037\wasy10.pk><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis.pdf (37 pages, 708447 bytes).
+Output written on Thesis.pdf (38 pages, 710900 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
+ 518 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

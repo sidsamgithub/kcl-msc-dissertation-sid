@@ -25,13 +25,12 @@
 \contentsline {subsection}{\numberline {5.1}Initial Data Pre-processing}{18}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Feature Extraction}{19}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Feature Engineering}{19}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Exploratory Data Analysis}{19}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Interpreting model results}{19}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Legal, Social, Ethical and Professional Issues}{20}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Ethical and Professional Issues}{20}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Legal and Social Issues}{21}{subsubsection.6.1.1}%
-\contentsline {section}{\numberline {7}Conclusion and Future Directions}{22}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Applicability within GSTT}{22}{subsection.7.1}%
-\contentsline {section}{References}{24}{section*.5}%
-\contentsline {section}{\numberline {A}Appendix}{26}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Dataset}{26}{subsection.A.1}%
+\contentsline {subsection}{\numberline {5.2}Exploratory Data Analysis and Interpreting Model Results}{19}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Legal, Social, Ethical and Professional Issues}{21}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Ethical and Professional Issues}{21}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Legal and Social Issues}{22}{subsubsection.6.1.1}%
+\contentsline {section}{\numberline {7}Conclusion and Future Directions}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Applicability within GSTT}{23}{subsection.7.1}%
+\contentsline {section}{References}{25}{section*.5}%
+\contentsline {section}{\numberline {A}Appendix}{27}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dataset}{27}{subsection.A.1}%
