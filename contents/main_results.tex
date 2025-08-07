@@ -1,5 +1,32 @@
 \section{Main Results and Findings}\label{sec:mainResults}
 
+\subsection{Initial Data Pre-processing}
+\noindent Raw data provided was first combined into a single file and then read into a Pandas dataframe. As part of initial cleanup, 2164 duplicate rows in the dataset were identified and dropped, as shown in \autoref{fig:dropDuplicates}. 
+
+\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.8]{figures/python_code/drop_duplicate_rows.png}
+		\caption{Dropping duplicate rows}
+		\label{fig:dropDuplicates}
+\end{figure}
+
+\noindent Following this, the percentage of missing values was evaluated prior to carrying out feature engineering. \autoref{fig:missingValuePercentages} displays the percentage of missing data across all raw columns:
+
+\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{figures/python_code/percent_missing_values_in_every_column.png}
+		\caption{Percentage of missing values in each column}
+		\label{fig:missingValuePercentages}
+\end{figure}
+
+\noindent The column Admit Weight was rendered unusable here, because it was missing 97\% of its content. Weight values cannot be calculated or imputed accurately based on the only available related features that were Age and Ethnicity, as Weight is a unique characteristic value of a patient just like Height and BMI, and to use class-based (ethnicity and age based) averages would \textbf{mislead the analysis} and produce unreliable results, so Weight is not considered in any further study hereonwards.
+
+\subsubsection{Feature Extraction}
+\noindent Next, all the columns were thoroughly examined for the exact relevant numerical values (for instance, age was given as "57kg" in the raw data as depicted in \autoref{fig:rawDataset}.) and new columns were created to store only the extracted numerical values for analysis. After this point, the usable data resembled the structure of the cleaned data as shown in \autoref{fig:cleanedDataset}.
+
+\subsubsection{Feature Engineering}
+\noindent After having acquired clear numerical values from the raw data through the newly extracted features, additional derived features were formulated based on these values. The resulting features are listed in \autoref{sec:derivedData} along with the criteria and logic used in their construction.   
+
 \subsection{Exploratory Data Analysis}
 
 \subsection{Interpreting model results}
