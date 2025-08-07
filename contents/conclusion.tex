@@ -1,4 +1,19 @@
-\red{The content of ``Conclusion'' is in ``{\textbackslash}contents{\textbackslash}conclusion.tex''}
+\section{Conclusion and Future Directions}
+	\noindent This research project has successfully achieved all of its fundamental objectives, which were thoughtfully devised and aligned with Guy's \& St. Thomas' NHS Foundation Trust's operational interests and priorities at the time of project inception. The work provides GSTT with immediate tangible value and practical, actionable findings that are based on a very recent (i.e. derived from data ranging from 2024 to 2025) medically diverse patient population.
 
-\section{Conclusion}
-	It is a chapter to sum up the main points and findings of the work; how you achieve the project aims and address the research questions; the contributions and results you have achieved.  Future plan and development can be mentioned in this section as well. It is normally in one or two pages.
+	\vspace{5pt}
+	\noindent Within the given patient cohort and features in the provided dataset,  the analysis identified that Patient Age, Average Glycated Haemoglobin levels (HbA1c) and Estimated Glomerular Filtration Rate (eGFR) as the key factors contributing towards hypoglycaemia. It found that the key "decision points" where hypoglycaemia risk grew dramatically were at critically impaired renal function values (eGFR \textless= 25\%) which is medically classed as "Kidney Failure", and at HbA1c levels below 34mmol/mol.
+	
+	\vspace{5pt}
+	\noindent The project serves as a foundation and proof-of-concept study for pre-emptive glycaemia management within the NHS. Its novelty stems from the analysis of a distinct, up-to-date dataset of diabetic patients admitted to London NHS wards. A key achievement of the project was the successful integration of disparate data streams from the GSTT's electronic patient health record system, Epic, that merged different aspects of patient data into a single cohesive dataset. This analysis acts as a blueprint that showcases how different Trusts can harness their own unique patient data to generate their own set of clinical actionable intelligence, and that the end-to-end approach I have used - from data exploration to model development to risk score creation - can either be customised by each Trust to accomplish their own goals or modified into a more general strategy to be adopted by various other Trusts across the NHS.
+
+\subsection{Applicability within GSTT}
+	\noindent In fulfilling all its goals, this project has confirmed the viability of applying machine learning to both resolve community healthcare issues in the NHS as well as extract new insights about patient and public health trends in the process. There are many ways GSTT or other Trusts within the NHS could apply the findings from this research into their healthcare workflows:
+
+	\begin{itemize}
+		\item \textbf{Integration into electronic health records systems like Epic:} The decision points found or even the risk score itself can be integrated directly into the Epic system. Upon admission of a new patient, the system can automatically decide the risk of hypoglycaemia based on these key factors and take necessary action (such as flagging the patient to be at greater risk of hypoglycaemia), whether that be assigning special rules to the patient such as a dedicated hypoglycaemia ward to be admitted in, or a review of current patient medication.
+		\item \textbf{Personalised patient education and enhanced post-discharge support: } For instance, elderly high-risk patients can receive personalised instructions or increased follow-ups which can be decided by the risk score.
+		\item \textbf{Benchmarking dashboard: } GSTT can leverage the key factors and risk score to create a monitoring and benchmarking dashboard to oversee patient numbers and track resources being expended, seasonal or yearly trends and so on. 
+		\item \textbf{Universal record structures : } Since data had to be aggregated from different sources in order to be analysed, GSTT could devise a single universal way of storing records that would make it much easier to analyse, spurring further research.
+		\item \textbf{Root cause analysis and simulation; } With the key factors now identified, these can be applied to past data to pull together the most likely causes for episodes in the past. They can also be used to simulate how or on what basis episodes could occur in other patient cohorts with their own distinct properties.
+	\end{itemize}
