@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  7 AUG 2025 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  7 AUG 2025 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,7 +855,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 89.
  (C:\Users\Siddharth\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<kcl.png, id=150, 170.6375pt x 112.42pt>
+<kcl.png, id=146, 170.6375pt x 112.42pt>
 File: kcl.png Graphic file (type png)
 <use kcl.png>
 Package pdftex.def Info: kcl.png  used on input line 89.
@@ -883,7 +883,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 89--89
 []$[]$ 
  []
 
-<figures/siddSign.png, id=152, 289.08pt x 170.88844pt>
+<figures/siddSign.png, id=148, 289.08pt x 170.88844pt>
 File: figures/siddSign.png Graphic file (type png)
 <use figures/siddSign.png>
 Package pdftex.def Info: figures/siddSign.png  used on input line 89.
@@ -978,8 +978,6 @@ l.101 \include{contents/nomenclature}
 
 
 ]
-
-[2]
 \openout2 = `contents/figures_tables.aux'.
 
  (contents/figures_tables.tex (Thesis.lof)
@@ -988,7 +986,7 @@ l.101 \include{contents/nomenclature}
 
 
 
-[3
+[2
 
 ])
 
@@ -1050,7 +1048,7 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 \openout2 = `contents/methodology_implementation.aux'.
 
  (contents/methodology_implementation.tex
-<figures/dataPreprocessingWf.png, id=321, 573.14125pt x 1185.42876pt>
+<figures/dataPreprocessingWf.png, id=312, 573.14125pt x 1185.42876pt>
 File: figures/dataPreprocessingWf.png Graphic file (type png)
 <use figures/dataPreprocessingWf.png>
 Package pdftex.def Info: figures/dataPreprocessingWf.png  used on input line 14.
@@ -1085,12 +1083,12 @@ l.18
 \openout2 = `contents/main_results.aux'.
 
  (contents/main_results.tex
-<figures/python_code/drop_duplicate_rows.png, id=357, 449.42906pt x 188.20313pt>
+<figures/python_code/drop_duplicate_rows.png, id=348, 449.42906pt x 188.20313pt>
 File: figures/python_code/drop_duplicate_rows.png Graphic file (type png)
 <use figures/python_code/drop_duplicate_rows.png>
 Package pdftex.def Info: figures/python_code/drop_duplicate_rows.png  used on input line 10.
 (pdftex.def)             Requested size: 359.54372pt x 150.56268pt.
-<figures/python_code/percent_missing_values_in_every_column.png, id=359, 566.115pt x 565.36218pt>
+<figures/python_code/percent_missing_values_in_every_column.png, id=350, 566.115pt x 565.36218pt>
 File: figures/python_code/percent_missing_values_in_every_column.png Graphic file (type png)
 <use figures/python_code/percent_missing_values_in_every_column.png>
 Package pdftex.def Info: figures/python_code/percent_missing_values_in_every_column.png  used on input line 19.
@@ -1146,7 +1144,7 @@ l.35
 \openout2 = `contents/app_1.aux'.
 
  (contents/app_1.tex
-<figures/dataset_screenshot_xl.png, id=413, 1404.74812pt x 593.96906pt>
+<figures/dataset_screenshot_xl.png, id=404, 1404.74812pt x 593.96906pt>
 File: figures/dataset_screenshot_xl.png Graphic file (type png)
 <use figures/dataset_screenshot_xl.png>
 Package pdftex.def Info: figures/dataset_screenshot_xl.png  used on input line 7.
@@ -1166,7 +1164,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
                                                   \__shipout_drop_firstpage_...
 l.11 
       <./figures/dataset_screenshot_xl.png>]
-<figures/cleaned_dataset_screenshot_xl.png, id=424, 1429.59094pt x 592.46344pt>
+<figures/cleaned_dataset_screenshot_xl.png, id=414, 1429.59094pt x 592.46344pt>
 File: figures/cleaned_dataset_screenshot_xl.png Graphic file (type png)
 <use figures/cleaned_dataset_screenshot_xl.png>
 Package pdftex.def Info: figures/cleaned_dataset_screenshot_xl.png  used on input line 14.
@@ -1187,7 +1185,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4D98301D98C2F2145538F5B7D0C213E6;6588.
+(rerunfilecheck)             Checksum: AA8552B3991D19544138A28EA1A83C8E;6422.
  )
 (\end occurred inside a group at level 2)
 
@@ -1195,17 +1193,17 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 ### simple group (level 1) entered at line 13 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31194 strings out of 468149
- 629689 string characters out of 5429147
- 1082855 words of memory out of 5000000
- 59113 multiletter control sequences out of 15000+600000
+ 31191 strings out of 468149
+ 629641 string characters out of 5429147
+ 1082852 words of memory out of 5000000
+ 59112 multiletter control sequences out of 15000+600000
  636442 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,13n,135p,2606b,913s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Siddharth\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi1037\wasy10.pk><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Siddharth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis.pdf (38 pages, 710896 bytes).
+Output written on Thesis.pdf (37 pages, 709290 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
