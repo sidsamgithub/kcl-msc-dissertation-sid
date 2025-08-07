@@ -29,11 +29,9 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: contents/app_1.aux
 Database file #1: contents/sample1.bib
-Warning--I didn't find a database entry for "Doe11"
-Warning--I didn't find a database entry for "JohSil05"
 You've used 12 entries,
             1876 wiz_defined-function locations,
-            552 strings with 7316 characters,
+            548 strings with 7290 characters,
 and the built_in function-call counts, 1648 in all, are:
 = -- 157
 > -- 55
@@ -72,4 +70,3 @@ warning$ -- 0
 while$ -- 12
 width$ -- 14
 write$ -- 111
-(There were 2 warnings)
